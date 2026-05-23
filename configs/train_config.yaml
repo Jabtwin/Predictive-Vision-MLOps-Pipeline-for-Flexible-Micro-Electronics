@@ -1,0 +1,25 @@
+# configs/train_config.yaml
+
+experiment_name: "flexible_grasp_unet"
+project_name: "deformable-grasp-vision"
+
+data:
+  img_size: [256, 256]
+  batch_size: 16
+  num_workers: 4
+  mock_dataset_size: 100
+
+model:
+  in_channels: 3
+  out_classes: 1  # 1 channel for heatmap
+
+training:
+  epochs: 5
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  optimizer: "AdamW"
+  loss_stress_penalty_weight: 0.5
+
+wandb:
+  enabled: true
+  log_model: false
