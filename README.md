@@ -42,7 +42,7 @@ deformable-grasp-vision/
 ### 1. Installation
 Clone the repository and install the dependencies:
 ```bash
-git clone https://github.com/YOUR-USERNAME/deformable-grasp-vision.git
+git clone https://github.com/Jabtwin/Predictive-Vision-MLOps-Pipeline-for-Flexible-Micro-Electronics.git
 cd deformable-grasp-vision
 pip install -r requirements.txt
 ```
