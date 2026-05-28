@@ -1,5 +1,7 @@
 # 🦾 Predictive Vision & MLOps Pipeline for Flexible Micro-Electronics
 
+![Screenshot](images/screenshot.png)
+
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![PyTorch Lightning](https://img.shields.io/badge/pytorch-lightning-792EE5.svg?style=for-the-badge&logo=pytorch-lightning&logoColor=white)
 ![Weights & Biases](https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=WeightsAndBiases&logoColor=white)
@@ -10,9 +12,6 @@ An end-to-end Machine Learning pipeline designed to enable robotic manipulators 
 
 Unlike standard rigid object grasping, handling these materials requires predicting physical stress to avoid micro-cracking. This pipeline automates the training workflow, simulates physical edge cases (warpage, extreme reflection), and outputs a **Safe Grasping Heatmap**.
 
-## Screenshot
-
-![Screenshot](images/screenshot.png)
 
 ## ✨ Key Features
 
