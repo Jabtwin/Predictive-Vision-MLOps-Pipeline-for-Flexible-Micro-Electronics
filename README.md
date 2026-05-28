@@ -10,6 +10,10 @@ An end-to-end Machine Learning pipeline designed to enable robotic manipulators 
 
 Unlike standard rigid object grasping, handling these materials requires predicting physical stress to avoid micro-cracking. This pipeline automates the training workflow, simulates physical edge cases (warpage, extreme reflection), and outputs a **Safe Grasping Heatmap**.
 
+## 🏗️ Architecture & Workflow
+
+![Pipeline Architecture](images/architecture.png)
+
 ## ✨ Key Features
 
 - 🏗️ **Stress-Aware Heatmap Prediction**: Uses a lightweight U-Net architecture to predict pixel-level safe grasping zones instead of traditional bounding boxes.
